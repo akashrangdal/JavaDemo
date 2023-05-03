@@ -1,0 +1,47 @@
+import java.util.*;
+public class HelloDemo {
+
+	public static void main(String[] args) {
+		
+		byte bytemax=127;
+		byte bytemin=-128;
+		
+		System.out.println("min range of byte is:"+ bytemin+"   "+"max range of byte is:"+bytemax);
+		
+		short shortmax=32767;
+		short shortmin=-32768;
+		
+		System.out.println("min range of short is"+ shortmin +"   "+"max range of short is"+shortmax);
+		
+		int maxint= 2147483647;
+		int minint = -2147483648;
+		
+		System.out.println("min range of int is"+ minint+"   "+"max range of int is"+maxint);
+		
+		long maxlong= 922337203654775807L;
+		long minlong=-922337203654775808L;
+		
+		System.out.println("min range of long is"+ minlong+"   "+"max range of long is"+maxlong);
+
+		float f=3234.141243278345f;
+		double d=3456.14124512345678902345678914f;
+		
+		System.out.println("float value is"+ f +"   "+"double value  is"+ d);
+		
+		char ch='a';
+		System.out.println(ch);
+		
+		char ch1=65;
+		System.out.println(ch1);
+		
+		char var1='\u00A7'; // assigning unicode to char;
+		System.out.println(var1);
+		
+		byte a='A'; // ASCI code representation
+		System.out.println(a);
+		
+		
+				
+	}
+
+}
